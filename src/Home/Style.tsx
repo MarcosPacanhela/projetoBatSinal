@@ -5,6 +5,14 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'space-between'
   },
+  scrollContainer: {
+    flexGrow: 1,
+    justifyContent: 'space-between'
+  },
+  formContainer: {
+    flex: 1,
+    justifyContent: 'space-between'
+  },
   image: {
     marginTop: 150,
     alignSelf: 'center'
@@ -22,7 +30,15 @@ const styles = StyleSheet.create({
     borderColor: '#000000',
     borderRadius: 15,
     padding: 8,
-    marginBottom: 100,
+    marginBottom: 20,
+    marginHorizontal: 15
+  },
+  buttonActive: {
+    borderWidth: 1,
+    borderColor: '#000000',
+    borderRadius: 15,
+    padding: 8,
+    marginBottom: 20,
     marginHorizontal: 15
   },
   imageForm: {
